@@ -40,6 +40,7 @@
             'zk_notification_lite/static/src/xml/notification_templates.xml',
         ],
     },
+    'images': ['static/description/banner.jpg'],
     'installable': True,
     'application': True,
     'auto_install': False,
