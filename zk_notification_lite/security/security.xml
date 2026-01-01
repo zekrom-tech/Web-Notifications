@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Category -->
+    <record id="module_category_web_notification" model="ir.module.category">
+        <field name="name">Web Notifications</field>
+        <field name="description">Category for Web Notifications Management</field>
+        <field name="sequence">50</field>
+    </record>
+
+    <!-- Group: Web Notification Manager -->
+    <record id="group_web_notification_manager" model="res.groups">
+        <field name="name">Web Notification Manager</field>
+        <field name="category_id" ref="module_category_web_notification"/>
+        <field name="comment">Users with this group can create and manage web notifications.</field>
+    </record>
+</odoo>
