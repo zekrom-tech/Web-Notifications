@@ -21,8 +21,6 @@
     """,
     'author': 'Zekrom Tech',
     'website': 'https://www.zekromtech.com',
-    'price': 15.00,
-    'currency': 'USD',
     'license': 'LGPL-3',
     'depends': ['base', 'web'],
     'data': [
