@@ -1,36 +1,3 @@
-# -*- coding: utf-8 -*-
-{
-    'name': 'Web Notifications Lite',
-    'version': '18.0.1.0.0',
-    'category': 'Tools',
-    'summary': 'Web Notifications with Pop-Up and Breaking News Types',
-    'description': """
-        Web Notification Module for Odoo 18
-        ====================================
-        This module provides two types of web notifications:
-        
-        1. Pop-Up Type Notifications - Toast-style notifications on the right side
-        2. Breaking News Type Notifications - Scrolling banner at the top
-        
-        Features:
-        - State management (Draft → In Progress → Finish)
-        - User permission controls
-        - Target specific users or all users
-        - Customizable breaking news styling (colors, font size, direction)
-        - Expiry date for breaking news
-    """,
-    'author': 'Zekrom Tech',
-    'website': 'https://www.zekromtech.com',
-    'license': 'LGPL-3',
-    'depends': ['base', 'web'],
-    'data': [
-        'security/security.xml',
-        'security/ir.model.access.csv',
-        'views/web_notification_views.xml',
-        'views/res_users_views.xml',
-        'views/menus.xml',
-    ],
-    # -*- coding: utf-8 -*-
 {
     'name': 'Web Notifications Lite',
     'version': '17.0.1.0.0',
