@@ -30,6 +30,8 @@
         'views/res_users_views.xml',
         'views/menus.xml',
     ],
+    'price': 2.00,
+    'currency': 'USD',
     'assets': {
         'web.assets_backend': [
             'zk_notification_lite/static/src/css/notification.css',
