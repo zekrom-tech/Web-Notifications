@@ -46,18 +46,4 @@
     'application': True,
     'auto_install': False,
 }
-    'assets': {
-        'web.assets_backend': [
-            'zk_notification_lite/static/src/css/notification.css',
-            'zk_notification_lite/static/src/js/notification_service.js',
-            'zk_notification_lite/static/src/js/notification_systray.js',
-            'zk_notification_lite/static/src/js/popup_notification.js',
-            'zk_notification_lite/static/src/js/breaking_news.js',
-            'zk_notification_lite/static/src/xml/notification_templates.xml',
-        ],
-    },
-    'images': ['static/description/banner.jpg'],
-    'installable': True,
-    'application': True,
-    'auto_install': False,
-}
+    
