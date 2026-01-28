@@ -21,6 +21,8 @@
     'author': 'Zekrom Tech',
     'website': 'https://www.zekromtech.com',
     'license': 'LGPL-3',
+    'price': 2.00,
+    'currency': 'USD',
     'depends': ['base', 'web'],
     'data': [
         'security/security.xml',
@@ -29,8 +31,6 @@
         'views/res_users_views.xml',
         'views/menus.xml',
     ],
-    'price': 2.00,
-    'currency': 'USD',
     'assets': {
         'web.assets_backend': [
             'zk_notification_lite/static/src/css/notification.css',
